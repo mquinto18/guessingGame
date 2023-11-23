@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Guessing game</title>
+</head>
+<body>
+    <video id="myVideo" autoplay muted>
+        <source src="Jump scare video_1.mp4" type="video/mp4">
+        <!-- Add other video formats here for browser compatibility -->
+        Your browser does not support the video tag.
+      </video>
+    <div class="guess">
+        <h1>GUESS NUMBER BETWEEN 1-100</h1>
+        <div class="guessing-container">
+            <input type="number" class="number" id="number"><br>
+            <button class="button" id="button">Guess</button>
+        </div>
+        <div class="guess-info" id="guess-info">
+            <h3 id="win"></h3>
+            <h3 id="high"></h3>
+            <h3 id="low"></h3>
+            <h3>Number of guesses: <span id="guess">0</span></h3>
+        </div>
+       
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

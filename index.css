@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    background: #fff;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.guess{
+    background: #fff;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+.guess h1{
+    font-size: 25px; 
+    color: #001e4d;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+.guessing-container{
+    text-align: center;
+    margin-top: 2rem;
+}
+input[type="number"]{
+    width: 30%;
+    padding: 1.5rem 0px;
+    text-align: center;
+    font-size: 30px;
+    -webkit-appearance: none;
+}
+.button{
+    margin: 20px 0;
+    padding: .5rem 1rem;
+    background-color: #2EC2F0;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.guess {
+    position: relative;
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+  }
+  
+  video {
+    width: 100%;
+    height: auto;
+    display: none;
+    border: 2px solid black; /* Optional border for the video element */
+  }
